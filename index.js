@@ -18,7 +18,6 @@ const {
 } = require("child_process")
 let app  = express()
 const PORT = process.env.PORT||3030
-const makeWASocket = require("https://github.com/whiskeysockets/baileys").default
 const pino = require('pino')
 const router = express.Router()
 const { delay ,Browsers,MessageRetryMap,fetchLatestBaileysVersion,useMultiFileAuthState,makeInMemoryStore } = require("@adiwajshing/baileys")
